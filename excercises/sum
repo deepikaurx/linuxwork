@@ -1,0 +1,14 @@
+admindk@admindk:~$ sum() {
+> echo "first number"
+> read a
+> echo "second number"
+> read b
+> (( sum = $a + $b ))
+> if((sum % 2 ==0))
+> then
+> echo "even"
+> else
+> echo "odd"
+> fi
+> }
+

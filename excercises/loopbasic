@@ -1,0 +1,13 @@
+admindk@admindk:~$ loopbasic() {
+> echo "enter value"
+> read value
+> echo "start loop"
+> echo "..........."
+> looper=1
+> while [ $looper -le $value ]
+> do
+> echo "${looper}"
+> ((looper ++))
+> done
+> }
+
